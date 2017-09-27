@@ -57,6 +57,7 @@ alert("CONGRATULATIONS MORTAL");
 chooseWord();
 console.log(word);
 letters = word.split("");
+already = [];
 reveal_letters = word.split("");
 turns = 10;
 conceal();
