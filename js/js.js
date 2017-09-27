@@ -21,12 +21,11 @@ display();
 const guess = () => {
 if (turns < 1) {alert("GO THY WAYS"); return}
 letter = window.prompt("CHOOSE A LETTER, SON OF MAN","???").toLowerCase();
-already.push(letter);
 let correct = 0;
 for (i=0; i<reveal_letters.length; i++) {
 	if (letter === letters[i] ) {reveal_letters[i] = " "+ letter + " "; correct = 1;}
 }
-if (correct == 0) {turns--;}
+if (correct == 0) {turns--; already.push(letter);}
 display();
 checkWin();
 }
