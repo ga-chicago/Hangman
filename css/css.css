@@ -1,0 +1,21 @@
+body {
+color: red;
+background-image: url("dragon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+text-align: center;
+}
+
+#container {
+	background: black;
+	display: inline-block;
+	padding: 20px;
+	border-radius: 20px;
+	border: 20px red ridge;
+}
+
+#push {
+height: 250px;
+width:100px;
+}
