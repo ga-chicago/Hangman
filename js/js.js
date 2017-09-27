@@ -1,5 +1,5 @@
 const words = ["marzipan", "parmesan", "electricity", 'elephant','dinosaur']
-const already = [];
+let already = [];
 let word = "marzipan";
 let turns = 10;
 let randomNumber = 0
